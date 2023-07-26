@@ -46,8 +46,7 @@ nav ul{
     margin: 23px auto;
     border-radius: 12px;
     padding: 20px;
-    /* background-image: url('asset/bg.jpg'); */
-    background-image: url('asset/bg_1.jpg');
+    background-image: url('bg_1.jpg');
 }
 
 .bottom-song-controller{
