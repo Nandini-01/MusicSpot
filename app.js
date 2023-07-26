@@ -10,16 +10,16 @@ let songItems = Array.from(document.getElementsByClassName('song-item'));
 let masterSongName = document.getElementById('masterSongName');
 
 let songs = [
-    { songname: "Salam-e-Ishq", filePath: "songs/1.mp3", coverpath: "asset/covers/1.jpg" },
-    { songname: "ABC", filePath: "songs/2.mp3", coverpath: "asset/covers/2.jpg" },
-    { songname: "DEF", filePath: "songs/3.mp3", coverpath: "asset/covers/3.jpg" },
-    { songname: "HIJ", filePath: "songs/4.mp3", coverpath: "asset/covers/4.jpg" },
-    { songname: "KLM", filePath: "songs/5.mp3", coverpath: "asset/covers/5.jpg" },
-    { songname: "NOP", filePath: "songs/6.mp3", coverpath: "asset/covers/6.jpg" },
-    { songname: "QRS", filePath: "songs/7.mp3", coverpath: "asset/covers/7.jpg" },
-    { songname: "UVW", filePath: "songs/8.mp3", coverpath: "asset/covers/8.jpg" },
-    { songname: "XYZ", filePath: "songs/9.mp3", coverpath: "asset/covers/9.jpg" },
-    { songname: "ABCDEFGH", filePath: "songs/10.mp3", coverpath: "asset/covers/10.jpg" },
+    { songname: "Salam-e-Ishq", filePath: "1.mp3", coverpath: "asset/covers/1.jpg" },
+    { songname: "ABC", filePath: "2.mp3", coverpath: "asset/covers/2.jpg" },
+    { songname: "DEF", filePath: "3.mp3", coverpath: "asset/covers/3.jpg" },
+    { songname: "HIJ", filePath: "4.mp3", coverpath: "asset/covers/4.jpg" },
+    { songname: "KLM", filePath: "5.mp3", coverpath: "asset/covers/5.jpg" },
+    { songname: "NOP", filePath: "6.mp3", coverpath: "asset/covers/6.jpg" },
+    { songname: "QRS", filePath: "7.mp3", coverpath: "asset/covers/7.jpg" },
+    { songname: "UVW", filePath: "8.mp3", coverpath: "asset/covers/8.jpg" },
+    { songname: "XYZ", filePath: "9.mp3", coverpath: "asset/covers/9.jpg" },
+    { songname: "ABCDEFGH", filePath: "10.mp3", coverpath: "asset/covers/10.jpg" },
 ]
 
 songItems.forEach((element, i) => {
